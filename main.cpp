@@ -16,10 +16,25 @@ int main()
 	cin >> a;
 	printc(6, "Enter secend intiger\n");
 	cin >> b;
-	printc(2, "bmm is :\t");
+	printc(3, "bmm is :\t");
 	cout << gcd(a, b) << endl;
-	printc(2, "kmm is :\t");
-	cout << kmm(a, b) << endl;
+	printc(3, "kmm is :\t");
+	cout << kmm(a, b) << endl<<endl;
+	cout << a;
+	
+	
+	if (isPrime(a))
+		printc(2, "\t is prime\n");
+	else
+		printc(4, "\t is not prime\n");
+	
+	
+	cout << b;
+	if (isPrime(b))
+		printc(2, "\t is prime\n");
+	else
+		printc(4, "\t is not prime\n");
+
 	cout << endl << endl;
 	system("pause");
 	return 0;
