@@ -9,17 +9,17 @@ using namespace std;
 int main()
 {
 	int a, b;
-	setcolor(6);
-	cout << "Enter first posetive intiger\n";
-	setcolor(7);
+	
+	setcolor(6);	 cout << "Enter first posetive intiger\n";	setcolor(7);
+	
 	cin >> a;
-	setcolor(6);
-	cout<<endl<<"Enter first posetive intiger\n";
-	setcolor(7);
+
+	setcolor(6);	 cout << endl << "Enter first posetive intiger\n";		setcolor(7);
+	
 	cin >> b;
-	setcolor(2);
-	cout << endl <<"your result is:\t"<< gcd(a, b)<<endl;
-	setcolor(7);
+	
+	setcolor(2);	 cout << endl << "your result is:\t"; setcolor(7);
+	cout << gcd(a, b) << endl;
 	system("pause");
 	return 0;
 
