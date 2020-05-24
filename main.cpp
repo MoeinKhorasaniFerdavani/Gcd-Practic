@@ -9,8 +9,11 @@ using namespace std;
 int main()
 {
 	int a, b;
-	cin >> a >> b;
-	cout << endl << gcd(a, b)<<endl;
+	cout << "Enter first posetive intiger\n";
+	cin >> a;
+	cout<<endl<<"Enter first posetive intiger\n";
+	cin >> b;
+	cout << endl <<"your result is:\t"<< gcd(a, b)<<endl;
 
 	system("pause");
 	return 0;
