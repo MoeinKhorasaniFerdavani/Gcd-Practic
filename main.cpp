@@ -2,23 +2,21 @@
 
 #include <iostream>
 
-#include "functions.h"
+
 #include "d:\moein proje\source\repos\my library\graphic\color.h"
+#include "functions.h"
+
 using namespace std;
 
 int main()
 {
 	int a, b;
-	setcolor(4);	cout << "Welcome to program\n";		setcolor(7);
-	setcolor(6);	 cout << "Enter first posetive intiger\n";	setcolor(7);
-	
+	printc(4, "Welcom to program\n");
+	printc(6, "Enter first intiger\n");
 	cin >> a;
-
-	setcolor(6);	 cout << endl << "Enter first posetive intiger\n";		setcolor(7);
-	
+	printc(6, "Enter secend intiger\n");
 	cin >> b;
-	
-	setcolor(2);	 cout << endl << "your result is:\t"; setcolor(7);
+	printc(2, "bmm is :\t");
 	cout << gcd(a, b) << endl;
 	system("pause");
 	return 0;
