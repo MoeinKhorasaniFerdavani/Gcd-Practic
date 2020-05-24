@@ -18,6 +18,9 @@ int main()
 	cin >> b;
 	printc(2, "bmm is :\t");
 	cout << gcd(a, b) << endl;
+	printc(2, "kmm is :\t");
+	cout << gcd(a, b) << endl;
+	cout << endl << endl;
 	system("pause");
 	return 0;
 
