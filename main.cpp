@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
 	int a, b;
-	
+	setcolor(4);	cout << "Welcome to program\n";		setcolor(7);
 	setcolor(6);	 cout << "Enter first posetive intiger\n";	setcolor(7);
 	
 	cin >> a;
