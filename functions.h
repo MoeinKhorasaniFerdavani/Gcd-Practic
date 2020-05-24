@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <math.h>
 using namespace std;
 
 void swapArg(int& a, int& b)
@@ -36,4 +37,19 @@ void printc(int color, T data)
 	setcolor(color);
 	cout << data;
 	setcolor(7);
+}
+
+
+bool isPrime(int a)
+{
+	if (a <= 0)
+		return false;
+	if (a % 2 == 0)
+		return false;
+	for (int b = 3; b <= sqrt(a); b += 2)
+	{
+		if (a % b == 0)
+			return false;
+	}
+	return true;
 }
